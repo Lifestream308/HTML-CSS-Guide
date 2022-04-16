@@ -1,0 +1,102 @@
+/* HTML & CSS */
+
+* {box-sizing: border-box; color: white;}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(space1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin-top: -2em;
+}
+
+h1 {text-align: center; font-size: 250%; padding-top: 2em;}
+
+/* Content Section Starts */
+#contents {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contentsleft {
+    float: left;
+}
+.contentsleft a {color: rgb(136, 209, 0);
+
+}
+/* Content Section Ends */
+
+/* Sticky Top Button */
+#stickytop {
+    position: sticky;
+    top: 2em;
+    right: 3em;
+    clear: left;
+    float: right;
+    background-color: orangered;
+    width: 5em;
+    text-align: center;
+    z-index: 1;
+}
+#stickytop a { color: black;
+}
+
+/* Chapters Section Starts */
+#chapters {
+    clear: left;
+    position: relative; 
+    font-size: 130%;
+    /* Changing Position to Relative breaks my href #chapter links Only certain pixels clickable as the link Changing to relative after the clear:left now fixes links, but breaks Top nav button */
+    /* Added Z-index to stickytop and now it is above and always clickable */
+}
+
+#chapters h2{color: rgb(255, 67, 67);}
+
+#chapters p{color: rgb(85, 255, 113);}
+/* Chapters Section Ends */
+
+/* Navbar example for Chapter 10 */
+#navbarex ul {
+    list-style-type: none;
+}
+#navbarex a {
+    color: white;
+    background-color: blue;
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    padding: 4px 0px;
+    text-align: center;
+    border: 1px solid black;
+}
+#navbarex a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Navbar example 2 for Chapter 10 */
+#navbarex2 ul {
+    list-style-type: none;
+}
+#navbarex2 li {
+    display: inline;
+}
+#navbarex2 a {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: -3px;
+    text-align: center;
+    border: 1px solid black;
+}
+#navbarex2 a:hover {
+    color: black;
+    background-color: white;
+}

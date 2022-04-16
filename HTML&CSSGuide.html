@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS</title>
+    <link href="HTML&CSS1.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <!-- ctrl / gives quotes. &lt; = "<" less than symbol -->
+
+    <div id="title">
+        <h1>HTML & CSS</h1>
+    </div>
+
+<!-- Contents Section Starts -->
+    <div id="contents">
+        <div class="contentsleft">
+            <h2><a href="#chapter1">Chapter 1: Attributes</a></h2>
+            <h2><a href="#chapter2">Chapter 2: Text</a></h2>
+            <h2><a href="#chapter3">Chapter 3: Lists</a></h2>
+            <h2><a href="#chapter4">Chapter 4: Links</a></h2>
+            <h2><a href="#chapter5">Chapter 5: Ideas to add</a></h2>
+        </div>    
+        <div class="contentsleft">
+            <h2><a href="#chapter6">Chapter 6: Tables</a></h2>
+            <h2><a href="#chapter7">Chapter 7: Forms</a></h2>
+            <h2><a href="#chapter8">Chapter 8: Useful CSS</a></h2>
+            <h2><a href="#chapter9">Chapter 9: Flexbox</a></h2>
+            <h2><a href="#chapter10">Chapter 10: Navigation Bar</a></h2>
+        </div>   
+        <div class="contentsleft">
+            <h2><a href="#chapter11">Chapter 11: Slideshow</a></h2>
+            <h2><a href="#chapter12">Chapter 12: DropDown Menu</a></h2>
+            <h2><a href="#chapter13">Chapter 13: </a></h2>
+            <h2><a href="#chapter14">Chapter 14: Layout</a></h2>
+            <h2><a href="#chapter15">Chapter 15: OOP</a></h2>
+        </div>
+    </div> 
+<!-- Content Section Ends -->
+
+<!-- Sticky Top Button -->
+    <div id="stickytop">
+        <h2><a href="#title">Top</a></h2>
+    </div>
+    
+<!-- Chapter 1-15 Main Info Starts -->
+    <div id="chapters">
+        <div id="chapter1">
+            <h2>Attributes</h2>
+            <p>&lt;p> title="I'm a tooltip">This is what tooltip looks like.&lt;/p></p>
+            <p title="I'm a tooltip">This is what tooltip looks like.</p>
+            <p>-----</p>
+            <p>&lt;p>The &lt;abbr title="World Health Organization">WHO&lt;/abbr> was founded in 1948.&lt;/p></p>
+            <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+            <p>-----</p>
+            <p>Border, Padding, Margin</p>
+            <p>Overflow : Hidden solves problems for some reason with background color</p>
+            <p>transition: 100ms; and on :hover you transform: scale(1.2); on hover will grow and shrink effect</p>
+        </div>
+        <div id="chapter2">
+            <h2>Text</h2>
+            <p>text-align = text alignment. text-align:center;</p>
+            <p>sub = subscripted text</p>
+            <p>sup = superscripted text</p>
+            <p>ins = inserted text</p>
+            <p>del = deleted text</p>
+            <p>mark = highlighted text</p>
+            <p>font-family = </p>
+            <p>font-size = </p>
+        </div>
+        <div id="chapter3">
+            <h2>Lists</h2>
+        </div>
+        <div id="chapter4">
+            <h2>Links</h2>
+            <p>CSS Stylesheet = &lt;link href="name1.css" rel="stylesheet" type="text/css"/></p>
+            <p>&lt;p>&lt;a href="https://www.w3.org/">W3C&lt;/a>&lt;/p></p>
+            <p>&lt;p>&lt;a href="https://www.google.com/" target="_blank>Google">&lt;/a>&lt;/p></p>
+            <p>&lt;p>&lt;a href="html_images.asp">HTML Images>&lt;/a>&lt;/p></p>
+            <p>&lt;p>&lt;a href="/css/default.asp">CSS Tutorial>&lt;/a>&lt;/p></p>
+            <p><a href="https://www.w3schools.com/html/html_links_colors.asp" target="_blank">Change Color of Links</a></p>
+            <p>add info about linking to another section, of another page</p>
+        </div>
+        <div id="chapter5">
+            <h2>Ideas to add to website</h2>
+            <p>add big format section to learn input form data</p>
+            <p>flexbox, positioning, float, ending floats,</p>
+            <p>read on static vs relative and why that was making sections of links unclickable</p>
+            <p>overflow: hidden is needed for navvbar but i dont know why. fixes background color</p>
+            <p>CSS Position in 9 minutes https://www.youtube.com/watch?v=jx5jmI0UlXU</p>
+            <p>Parallax Scrolling</p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+<!-- Chapter 6-10 Starts Here -->
+        <div id="chapter6">
+            <h2>Tables</h2>
+        </div>
+        <div id="chapter7">
+            <h2>Forms</h2>
+            <p>Need to add big section on forms here</p>
+        </div>
+        <div id="chapter8">
+            <h2>Useful CSS</h2>
+            <p>Clear: left; used to clear floats</p>
+            <p>header::after { <br>
+                content: '';    <br>
+                clear: both;    <br>
+                display: table; }</p>
+            <p>html, body { <br>
+                height: 100%; <br>
+                width: 100%; <br>
+                margin: 0;</p>
+            <p>margin-inline: auto</p>
+            <p>width: max-content width: min-content width: fit-content</p>
+            <p>Learn clamp from Kevin Powell</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p>Centering Things: https://www.w3.org/Style/Examples/007/center.en.html#block</p>
+        </div>
+        <div id="chapter9">
+            <h2>Flexbox</h2>
+            <p><a href="https://www.w3schools.com/css/css_align.asp" target="_blank">https://www.w3schools.com/css/css_align.asp</a></p>
+            <p>Parent - display: flex</p>
+            <p>  display: flex;
+                justify-content: center;
+                justify-content: space-between;
+                justify-content: space-around;
+                justify-content: space-evenly; 
+                justify-content: flex-start; 
+                justify-content: flex-end; 
+                align-items: stretch; 
+                align-items: flex-start; 
+                align-items: flex-end; 
+                align-items: center;
+                align-self: flex-start/flex-end/; 
+                flex-direction: column; 
+                flex-grow: 1; 
+                flex-shrink: 1; 
+                flex-basis: 0
+                flex-basis: 300px; 
+                flex-wrap: wrap; 
+
+            
+            
+            </p>
+            <p>Flexbox in 15 Minutes https://www.youtube.com/watch?v=fYq5PXgSsbE</p>
+            <p>gap: 1rem; </p>
+        </div>
+        <div id="chapter10">
+            <h2>Navigation Bar</h2>
+            <div id="navbarex">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div id="navbarex2">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
+                </ul>
+            </div>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+<!-- Chapter 11-15 Starts Here -->
+        <div id="chapter11">
+            <h2>Chapter 11 Slideshow</h2>
+            <p> var slideIndex = 0; <br>
+                showSlides();     <br>
+                <br>
+                function showSlides() {    <br>
+                  var i;                    <br>
+                  var slides = document.getElementsByClassName("mySlides"); <br>
+                  for (i = 0; i < slides.length; i++) {  <br>
+                    slides[i].style.display = "none";    <br>
+                  }  <br>
+                  slideIndex++;  <br>
+                  if (slideIndex > slides.length) {slideIndex = 1}    <br>
+                  <br>
+                  slides[slideIndex-1].style.display = "block";  <br>
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds  <br>
+                }</p>
+        </div>
+        <div id="chapter12">
+            <h2>Drop Down Menus</h2>
+            <p>Can be Hover, or on Click. Click requires JS</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <div id="chapter13">
+            <h2>chapter 13</h2>
+        </div>
+        <div id="chapter14">
+            <h2>Layout</h2>
+            <p>In the head section can place this to resize for small screens:</p>
+            <p>@media (max-width: 600px) { <br>
+                nav, article { <br>
+                  width: 100%; <br>
+                  height: auto;</p>
+            <p></p>
+            <p>Centering Things: https://www.w3.org/Style/Examples/007/center.en.html#block</p>
+        </div>
+        <div id="chapter15">
+            <h2>Object Oriented Programming class. Winter Term Jan 3rd 2022</h2>
+            <p>Sequence, Selection, Loop can solve all logical problems</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+    </div>
+<!-- Chapter 1-15 Main Info Ends -->
+
+</body>
+</html>
